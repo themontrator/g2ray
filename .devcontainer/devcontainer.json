@@ -1,5 +1,5 @@
 {
-  "name": "ghtun",
+  "name": "gitmon",
   "build": {
     "dockerfile": "./Dockerfile",
     "context": "."
@@ -9,6 +9,9 @@
       "installZsh": false
     },
     "ghcr.io/devcontainers/features/github-cli:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/sshd:1": {
       "version": "latest"
     }
   },
